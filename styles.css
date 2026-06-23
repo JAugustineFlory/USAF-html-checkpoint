@@ -1,0 +1,59 @@
+/*Global Styling*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: rgb(58, 58, 58);
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3px;
+}
+
+/*Navigation Bar*/
+nav {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    /* background: blue; */
+}
+
+/*Search Bar*/
+.searchBar {
+    width: 28%;
+    height: 100%;
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+
+#searchBar{
+    height: 75%;
+    border-radius: 6px;
+    border: none;
+    padding: 0 6px;
+    margin: 3px;
+}
+
+#searchBtn {
+    padding: 9px;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0);
+    border: solid 1px gold;
+    color: gold;
+}
