@@ -77,7 +77,8 @@ nav h3 {
 
 #searchBtn {
     height: 80%;
-    min-width: 20%;
+    width: fit-content;
+    padding: 0 6px;
     border-radius: 6px;
     background-color: rgba(0,0,0,0);
     border: solid 1px gold;
