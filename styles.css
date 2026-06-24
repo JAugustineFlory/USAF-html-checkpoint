@@ -74,7 +74,8 @@ nav h3 {
 }
 
 #searchBtn {
-    padding: 9px;
+    height: 80%;
+    min-width: 20%;
     border-radius: 6px;
     background-color: rgba(0,0,0,0);
     border: solid 1px gold;
